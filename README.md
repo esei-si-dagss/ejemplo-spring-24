@@ -375,6 +375,8 @@ mvnw.cmd spring-boot:run    # en MS Windows
    - http://localhos:8080/pedidoes
    - etc
 
+3. Con el proyecto arrancado, realiza pruebas enviando peticiones HTTP con `curl` o con extensiones que faciliten este trabajo. Más detalles [aquí](doc/peticiones_REST.md).
+
 ### SpringDoc OpenAPI (generador de documentación on-line OpenAPI/Swagger) [no es parte de Spring]
 
 1. Añadir/descomentar las siguientes dependencias en el `pom-xml` (activa el proyecto `springdoc-openapi`)
